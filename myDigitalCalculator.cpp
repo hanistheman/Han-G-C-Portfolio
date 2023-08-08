@@ -1,13 +1,10 @@
 #include <iostream>
 #include <typeinfo>
 #include <cmath>
-
+#include <stdexcept>
 /* This program I will be using to help me better understand how exceptions
  * as well as conditionals like if/else work in C++. I will achieve this by
  * creating a simple digital calculator to help me understand better. */
-
-#include <iostream>
-#include <stdexcept>
 
 double add(double a, double b) {
     return a + b;
